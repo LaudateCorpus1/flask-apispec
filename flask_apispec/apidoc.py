@@ -67,7 +67,6 @@ class Converter(object):
             options['default_in'] = self.get_default_in(locations[0])
         return converter(
             args.get('args', {}),
-            dump=False,
             **options
         ) + rule_to_params(rule, docs.get('params'))
 
