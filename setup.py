@@ -8,7 +8,7 @@ REQUIRES = [
     'six>=1.9.0',
     'flask>=0.10.1',
     'marshmallow>=2.0',
-    'webargs==4.3.1',
+    'webargs==4.4.1',
     'apispec==0.20.0',
 ]
 
